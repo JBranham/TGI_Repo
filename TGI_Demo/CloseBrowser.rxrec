@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="ed1e73f6-6a1d-4963-bb03-e3e6de72e2ec"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="TGI_Demo">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="eae6c60c-2e9c-4a48-a863-08c62ad8fdfc">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c6e282eb-84c0-486b-9a46-104ea80d20fa"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='iexplore']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="d0bbe631-1580-4499-801e-dd388a8411d0"
+	name="TGI_DemoRepository"
+	relativepath="TGI_DemoRepository.rxrep">
+		<codegen
+		classname="TGI_DemoRepository"
+		namespace="TGI_Demo">
+		</codegen>
+		<rootfolder
+		id="93c885a2-7047-4e8e-b371-e0f2cfbb4a2d"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

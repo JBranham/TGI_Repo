@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="TGI_Demo"
+      id="07516349-18a5-4819-be4f-54c05b53b407"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="TGI_Demo"
+      id="07516349-18a5-4819-be4f-54c05b53b407"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

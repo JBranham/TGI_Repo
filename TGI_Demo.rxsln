@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+# Ranorex Studio 9.3.0
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TGI_Demo", "TGI_Demo\TGI_Demo.csproj", "{E626D524-8DD4-4166-A94D-C2A79F5F9AD3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{12E1EB43-4FAD-4939-800F-87BFC46FDC0A}"
+	ProjectSection(SolutionItems) = postProject
+		Ranorex = .\Ranorex.rxsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E626D524-8DD4-4166-A94D-C2A79F5F9AD3}.Debug|x86.Build.0 = Debug|x86
+		{E626D524-8DD4-4166-A94D-C2A79F5F9AD3}.Debug|x86.ActiveCfg = Debug|x86
+		{E626D524-8DD4-4166-A94D-C2A79F5F9AD3}.Release|x86.Build.0 = Release|x86
+		{E626D524-8DD4-4166-A94D-C2A79F5F9AD3}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal

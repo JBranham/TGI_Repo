@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="b58912b4-7baa-449f-a3d4-634a9fb40143"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenBrowser"
+	namespace="TGI_Demo">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="IE"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://www.ranorex.com/web-testing-examples/vip/
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="d0bbe631-1580-4499-801e-dd388a8411d0"
+	name="TGI_DemoRepository"
+	relativepath="TGI_DemoRepository.rxrep">
+		<codegen
+		classname="TGI_DemoRepository"
+		namespace="TGI_Demo">
+		</codegen>
+		<rootfolder
+		id="93c885a2-7047-4e8e-b371-e0f2cfbb4a2d"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
